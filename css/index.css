@@ -1,0 +1,16 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size:12px;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	overflow: hidden;
+}
+
+canvas {
+	height: 100vh;
+	width: 100vw}
