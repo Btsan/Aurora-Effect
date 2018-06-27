@@ -1,5 +1,5 @@
 # Aurora-Effect
-[Demo](https://havorax.github.io/Perlin-Aurora-Effect/): JavaScript generated Aurora Effect, using value noise
+[Demo](https://havorax.github.io/Aurora-Effect/): JavaScript generated Aurora Effect, using value noise
 
 ---
 
@@ -15,4 +15,4 @@ The aurora effect is produced with multiple particles, rendered in HTML Canvas, 
 
 Since many particles are used, it's not ~~at all~~ the most efficient method for creating such an effect, but it does have the advantage of having color changes both vertically and horizontally.
 
-The [demo](https://havorax.github.io/Perlin-Aurora-Effect/) runs best on desktop devices.
+The [demo](https://havorax.github.io/Aurora-Effect/) runs best on desktop devices.
