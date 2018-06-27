@@ -8,16 +8,16 @@ function clear() {
 	ctx.fillRect(0, 0, width, height);
 }
 
-var Perlin = getPerlin();
-var r_ch = getPerlin();
-var g_ch = getPerlin();
-var b_ch = getPerlin();
+var Noise = getNoise();
+var r_ch = getNoise();
+var g_ch = getNoise();
+var b_ch = getNoise();
 
 var t = 0;
 var snow = [];
 function init () {
 	for (var i = 0; i < width; i += 2) {
-		let alpha = Perlin.sample(i/width, t);
+		let alpha = Noise.sample(i/width, t);
 		if (alpha > 0){
 			var red = r_ch.sample(i/width, t)*255;
 			var green = g_ch.sample(i/width, t)*255;
@@ -36,7 +36,7 @@ function init () {
 	t += 0.002;
 	if (t > 1) {
 		t -= 1;
-		Perlin.wrapd();
+		Noise.wrapd();
 		r_ch.wrapd();
 		g_ch.wrapd();
 		b_ch.wrapd();
@@ -52,7 +52,7 @@ function draw_frame() {
 		ctx.fillStyle = "rgba("+ snow[i].r + "," + snow[i].g + "," + snow[i].b + "," + snow[i].a.toString() + ")";
 		ctx.fill();
 		snow[i].y += 1;
-		snow[i].a -= 0.011;
+		snow[i].a -= 0.01;
 		if (snow[i].y > height || snow[i].alpha < 0) {
 			snow.splice(i, 1);
 			i--;
