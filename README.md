@@ -1,13 +1,13 @@
-# Perlin-Aurora-Effect
-[Demo](https://havorax.github.io/Perlin-Aurora-Effect/): JavaScript generated Aurora Effect, using Perlin noise
+# Aurora-Effect
+[Demo](https://havorax.github.io/Perlin-Aurora-Effect/): JavaScript generated Aurora Effect, using value noise
 
 ---
 
-## Perlin Noise
+## [Value Noise](https://en.wikipedia.org/wiki/Value_noise)
 
-Multiple Perlin noise objects (found in js/Perlin.js) are used to generate the 4 RGBA values for each Aurora particle.
+Multiple noise objects (found in js/Perlin.js) are used to generate the 4 RGBA values for each Aurora particle.
 
-Perlin noise is used, because it produces a smooth transition between the aurora colors.
+Value noise is used, because it produces a smooth~~-enough~~ transition between the aurora colors and is simple to implement.
 
 ## Aurora
 
