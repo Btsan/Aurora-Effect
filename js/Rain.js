@@ -18,20 +18,17 @@ var snow = [];
 function init () {
 	for (var i = 0; i < width; i += 2) {
 		let alpha = Noise.sample(i/width, t);
-		if (alpha > 0){
-			var red = r_ch.sample(i/width, t)*255;
-			var green = g_ch.sample(i/width, t)*255;
-			var blue = b_ch.sample(i/width, t)*255;
-			snow.push(
-				{
-					x: i,
-					y: 0,
-					r: red.toString(),
-					g: green.toString(),
-					b: blue.toString(),
-					a: alpha
-				});
-		}
+		var red = r_ch.sample(i/width, t)*255;
+		var green = g_ch.sample(i/width, t)*255;
+		var blue = b_ch.sample(i/width, t)*255;
+		snow.push({
+				x: i,
+				y: 0,
+				r: red.toString(),
+				g: green.toString(),
+				b: blue.toString(),
+				a: alpha
+			});
 	}
 	t += 0.002;
 	if (t > 1) {
