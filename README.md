@@ -15,7 +15,7 @@ The aurora effect is produced with multiple particles, rendered in HTML Canvas, 
 
 Since many particles are used, it's not ~~at all~~ the most efficient method for creating such an effect, but it does have the advantage of having color changes both vertically and horizontally.
 
-Smoother color changes could be performed using gradient noise, but the current demo seems fine, so the computationally cheaper value noise is used. Additionally, colors are currently chosen by iterpolating between RGB channels, but can also be represented as hue, as in HSL values. Using HSL values would produce color transitions that are more *logical* to humans, yet that doesn't mean RGB values are inferior. RGB values are used, because the effect is more vivid than the *overly* smooth HSL transitions.
+Smoother color changes could be performed using gradient noise, but the current demo seems fine, so the computationally cheaper value noise is used. Additionally, colors are currently chosen by randomizing the RGB channels, but can also be represented as hue, as in HSL values. Using HSL values would produce color transitions that are more *logical* to humans, yet that doesn't mean RGB values are inferior. RGB values are used, because the effect is more vivid than the *overly* smooth HSL transitions.
 
 ---
 
