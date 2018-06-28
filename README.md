@@ -19,4 +19,4 @@ Smoother color changes could be performed using gradient noise, but the current 
 
 ---
 
-The [demo](https://havorax.github.io/Aurora-Effect/) runs best on desktop devices.
+The [demo](https://havorax.github.io/Aurora-Effect/) runs best on desktop devices, with landscape screen orientation.
