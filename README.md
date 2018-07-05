@@ -1,7 +1,7 @@
 # Aurora-Effect
-[Demo](https://havorax.github.io/Aurora-Effect/): JavaScript generated Aurora Effect, using value noise
+[Demo](https://havorax.github.io/Aurora-Effect/): JavaScript generated Aurora Effect, using value noise:
 
----
+<a href="https://havorax.github.io/Aurora-Effect/"><img src="aurora.png"></img></a>
 
 ## [Value Noise](https://en.wikipedia.org/wiki/Value_noise)
 
