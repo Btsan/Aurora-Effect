@@ -9,7 +9,9 @@ Multiple noise objects (found in js/Noise.js) are used to generate the 4 *RGBA* 
 
 Value noise is used, because it produces a *seemingly* smooth ~~enough~~ transition between the aurora colors and is simple to implement. In truth, value noise isn't smooth, but that probably can't be seen [here](https://havorax.github.io/Aurora-Effect/).
 
-*If you pay close attention to the demo, you might notice what seems like the occasional horizontal line, scanning downwards. That is would be due to value noise*
+*If you pay close attention to the demo, you might notice what seems like the occasional horizontal line, scanning downwards. That is due to the roughness of value noise*
+
+The JavaScript code for value noise here is a 2D implmentation. My [other project](https://github.com/Havorax/webcanvas_tetris) extends it for 3D noise sampling.
 
 ## Aurora
 
