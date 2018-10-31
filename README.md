@@ -1,17 +1,17 @@
 # Aurora-Effect
-[Demo](https://havorax.github.io/Aurora-Effect/): JavaScript generated Aurora Effect, using value noise:
+[Demo](https://Btsan.github.io/Aurora-Effect/): JavaScript generated Aurora Effect, using value noise:
 
-<a href="https://havorax.github.io/Aurora-Effect/"><img src="aurora.png"></img></a>
+<a href="https://Btsan.github.io/Aurora-Effect/"><img src="aurora.png"></img></a>
 
 ## [Value Noise](https://en.wikipedia.org/wiki/Value_noise)
 
 Multiple noise objects (found in js/Noise.js) are used to generate the 4 *RGBA* values for each Aurora particle.
 
-Value noise is used, because it produces a *seemingly* smooth ~~enough~~ transition between the aurora colors and is simple to implement. In truth, value noise isn't smooth, but that probably can't be seen [here](https://havorax.github.io/Aurora-Effect/).
+Value noise is used, because it produces a *seemingly* smooth ~~enough~~ transition between the aurora colors and is simple to implement. In truth, value noise isn't smooth, but that probably can't be seen [here](https://Btsan.github.io/Aurora-Effect/).
 
 *If you pay close attention to the demo, you might notice what seems like the occasional horizontal line, scanning downwards. That is due to the roughness of value noise*
 
-The JavaScript code for value noise here is a 2D implmentation. My [other project](https://github.com/Havorax/webcanvas_tetris) extends it for 3D noise sampling.
+The JavaScript code for value noise here is a 2D implmentation. My [other project](https://github.com/Btsan/webcanvas_tetris) extends it for 3D noise sampling.
 
 ## Aurora
 
@@ -23,4 +23,4 @@ Smoother color changes could be performed using gradient noise, but the current 
 
 ---
 
-The [demo](https://havorax.github.io/Aurora-Effect/) runs best on desktop devices, with landscape screen orientation.
+The [demo](https://Btsan.github.io/Aurora-Effect/) runs best on desktop devices, with landscape screen orientation.
